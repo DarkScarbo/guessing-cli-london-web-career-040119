@@ -9,7 +9,7 @@ def run_guessing_game
     elsif ans != "#{number}"
       puts "The computer guessed #{number}."
       "Try again!"
-      ans = gets.
+      ans = gets.chomp
     elsif ans = exit
       puts "Goodbye!"
   end
